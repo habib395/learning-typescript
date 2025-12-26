@@ -38,6 +38,36 @@ const fullStackDeveloper : FullStackDeveloper ={
     designation2: 'Backend Developer'
 }
 
-// | ----------> union type 
-// &------------> intersection type
+// | ----------> union type (jekono akta)
+// &------------> intersection type( total guloi)
+
+
+    type BackendDeveloper2 = {
+        skills: string[];
+        designation: 'junior backend Developer' | 'Fakibaj Developer'
+    }
+
+    const backendDeveloper : BackendDeveloper2 ={
+        skills: ['Express', 'MongoDb'],
+        designation: 'junior backend Developer'
+    }
+
+    type PremKori1 = {
+        duration: string;
+        designation1: 'butterfly'| 'muskan juberi' | 'jhinuk'
+    }
+
+    type premKori2 = {
+        duration: string;
+        designation2: 'mayabini' | 'ghorer rani'| 'manusi'
+    }
+
+    type premKorci = PremKori1 & premKori2
+
+    const aharePrem : premKorci = {
+        duration: '3 years',
+        designation1: 'butterfly',
+        designation2: 'manusi'
+    }
+
 }

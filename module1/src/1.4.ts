@@ -6,7 +6,7 @@ let eligibleRollList: number[] = [1, 2]
 
 eligibleRollList.push(6)
 
-// tuple --> array --> order --> type of values
+// tuple(couple) --> array --> order --> type of values
 
 let coordinates : [number, number] = [1, 5]
 

@@ -42,7 +42,6 @@ const arr: number[] = [1, 2, 3];
 
 const newArray: number[] = arr.map((elem: number) => elem * elem)
 
-
 const smallArr : number[] = [1, 4, 20];
 
 const smallArray : number[] = smallArr.map((elem : number) => elem * elem)

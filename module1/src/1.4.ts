@@ -14,3 +14,5 @@ let ageName : [number, string, boolean] = [50, 'Mr. X', true]
 
 ageName[0] = 30
 
+
+
